@@ -3,7 +3,7 @@
 > Repo tổng quan và lộ trình học DSA từ cơ bản đến nâng cao bằng **C++**.  
 > Toàn bộ code, lý thuyết và bài tập được chia thành 2 thư mục chính: `data_structure/` và `algorithm/` để dễ triển khai và ôn tập.
 
-## Mục Lục
+**Mục Lục**
 
 - [1. Giới Thiệu Dự Án](#1-giới-thiệu-dự-án)
 - [2. Mục Tiêu](#2-mục-tiêu)
