@@ -41,7 +41,6 @@ Sau khi hoàn thành repo bạn sẽ:
 - Nắm vững các cấu trúc dữ liệu nền tảng đến nâng cao
 - Thành thạo các kỹ thuật thuật toán quan trọng (Two Pointers, DP, Graph...)
 - Phân tích được độ phức tạp `Big O` và tối ưu code
-- Giải được ~300 bài LeetCode (100 Easy + 150 Medium + 50 Hard) - đủ để phỏng vấn Intern/Fresher/Middle
 - Có nền tảng để học tiếp System Design, Competitive Programming, AI
 
 ## 3. Yêu Cầu Chuẩn Bị
@@ -67,8 +66,6 @@ g++ main.cpp -o main && ./main
 | Struct/Class | `struct Node { ... }` |
 | STL cơ bản | `vector`, `string`, `sort`, `pair` |
 | Tối ưu I/O | `ios::sync_with_stdio(false); cin.tie(nullptr);` |
-
-> Nếu chưa vững, hãy dành 1-2 tuần học lại C++ cơ bản trước khi vào DSA.
 
 ## 4. Cấu Trúc Thư Mục - Tổng Quan
 
@@ -190,8 +187,6 @@ data_structure/10_trie + 11_segment_tree_fenwick + algorithm/11_string_algorithm
 **Lộ trình 3 tháng (cấp tốc, 3-4h/ngày):** Nền tảng (tuần 1-4) -> Trung cấp (5-8) -> Graph + DP (9-12)  
 **Lộ trình 6 tháng (chuẩn, 2h/ngày):** Tháng 1: Nền tảng -> Tháng 2-3: Tree/Graph -> Tháng 4-5: DP -> Tháng 6: Ôn tập + Contest
 
-> Chi tiết từng giai đoạn (mục tiêu, bài tập LeetCode, code mẫu) xem trong `README.md` của từng thư mục con.
-
 ## 8. Cách Sử Dụng Repo
 
 ### 1. Clone
@@ -225,7 +220,6 @@ int main() {
 2. Chạy thử `*_implementation.cpp` để hiểu cài đặt
 3. Tự code lại không nhìn lời giải
 4. Làm bài tập trong `exercises/` - từ Easy -> Medium -> Hard
-5. Ghi chú pattern vào `notes.md` (nếu có)
 
 ## 9. Quy Ước Code C++
 
@@ -234,31 +228,36 @@ int main() {
 - Ưu tiên dùng STL khi đi phỏng vấn, nhưng phải tự cài được khi cần
 - Dùng `long long` khi sợ tràn số, `vector<int>` thay cho mảng tĩnh
 
-**Cheat Sheet STL nhanh:**
+**Sheet STL nhanh:**
 
 ```cpp
-vector<int> v; v.push_back(1); sort(v.begin(), v.end());
-string s; s.substr(1,3); s.find("el");
-stack<int> st; queue<int> q; deque<int> dq;
+vector<int> v; 
+v.push_back(1); 
+sort(v.begin(), v.end()); // Sort tăng dần
+sort(a.begin(), a.end(), greater<int>()); // Sort giảm dần
+
+string s; 
+s.substr(1,3); 
+s.find("el");
+
+stack<int> st; 
+queue<int> q; 
+deque<int> dq;
+
 priority_queue<int> pq; // max-heap
 priority_queue<int, vector<int>, greater<int>> minHeap;
-set<int> s; map<int,int> mp; // O(log n) có thứ tự
-unordered_set<int> us; unordered_map<int,int> ump; // O(1) trung bình
-sort(a.begin(), a.end(), greater<int>());
+
+set<int> s; // O(log n) có thứ tự
+map<int,int> mp; // O(log n) có thứ tự
+
+unordered_set<int> us; // O(1) trung bình
+unordered_map<int,int> ump; // O(1) trung bình
+
 lower_bound(a.begin(), a.end(), x); // nhị phân
+upper_bound(a.begin(), a.end(), x); // nhị phân
 ```
 
-## 10. Tài Nguyên Học Tập
-
-| Loại | Gợi ý | Link |
-| :--- | :--- | :--- |
-| Sách TV | Giải Thuật và Lập Trình - Lê Minh Hoàng | - |
-| Sách EN | CLRS, Cracking the Coding Interview | - |
-| Video TV | 28Tech, VNOI Wiki (`vnoi.info`), LQDOJ | youtube.com/@28tech |
-| Video EN | Abdul Bari, MIT 6.006 | youtube.com |
-| Luyện bài | **LeetCode** (phỏng vấn), HackerRank, Codeforces, **LQDOJ/VNOJ** (TV), SPOJ, GeeksforGeeks | leetcode.com / lqdoj.edu.vn |
-
-## 11. Checklist Tiến Độ
+## 1. Checklist Tiến Độ
 
 Đánh dấu khi hoàn thành từng thư mục:
 
@@ -297,7 +296,7 @@ lower_bound(a.begin(), a.end(), x); // nhị phân
 - [ ] 350+ bài: Thi đấu / Senior
 ```
 
-## Lời Khuyên
+## Tổng kết
 
 1. **Đi đúng thứ tự:** Đừng học DP khi chưa vững Recursion.
 2. **Code mỗi ngày:** 1 bài/ngày đều đặn > 10 bài/ngày rồi nghỉ.
