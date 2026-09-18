@@ -164,24 +164,19 @@ Mỗi thư mục con sẽ chứa:
 
 Đi theo thứ tự dưới đây, mỗi thư mục tương ứng 1-2 tuần (2-3 giờ/ngày).
 
-```txt
-data_structure/01_array + algorithm/01_complexity + 06_two_pointers
-    ↓
-algorithm/02_sorting + 03_searching
-    ↓
-data_structure/04_stack + 05_queue + 03_linked_list
-    ↓
-algorithm/04_recursion + 05_backtracking + data_structure/06_hash_table
-    ↓
-data_structure/07_tree + 08_heap + 12_disjoint_set_union
-    ↓
-data_structure/09_graph + algorithm/10_graph_algorithms
-    ↓
-algorithm/07_greedy + 08_divide_and_conquer
-    ↓
-algorithm/09_dynamic_programming  (4-5 tuần)
-    ↓
-data_structure/10_trie + 11_segment_tree_fenwick + algorithm/11_string_algorithms (nâng cao)
+```mermaid
+flowchart TD
+    A["data_structure/01_array<br>algorithm/01_complexity<br>algorithm/06_two_pointers_sliding_window"]
+    B["algorithm/02_sorting<br>algorithm/03_searching"]
+    C["data_structure/04_stack<br>data_structure/05_queue<br>data_structure/03_linked_list"]
+    D["algorithm/04_recursion<br>algorithm/05_backtracking<br>data_structure/06_hash_table"]
+    E["data_structure/07_tree<br>data_structure/08_heap<br>data_structure/12_disjoint_set_union"]
+    F["data_structure/09_graph<br>algorithm/10_graph_algorithms"]
+    G["algorithm/07_greedy<br>algorithm/08_divide_and_conquer"]
+    H["algorithm/09_dynamic_programming<br>(4-5 tuần)"]
+    I["data_structure/10_trie<br>data_structure/11_segment_tree_fenwick<br>algorithm/11_string_algorithms<br>(nâng cao)"]
+
+    A --> B --> C --> D --> E --> F --> G --> H --> I
 ```
 
 **Lộ trình 3 tháng (cấp tốc, 3-4h/ngày):** Nền tảng (tuần 1-4) -> Trung cấp (5-8) -> Graph + DP (9-12)  
