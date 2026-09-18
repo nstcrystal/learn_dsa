@@ -62,42 +62,77 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
+
     // --- Demo 1: vector<int> cơ bản ---
     vector<int> a = {4, 2, 7, 1, 9, 7, 3};
-    cout << "Mang: ";
-    for (int x : a) cout << x << " ";
+
+    cout << "  Mang: ";
+    
+    for (int x : a) {
+        cout << x << " ";
+    } 
+
     cout << "\n";
 
     int target = 7;
     int idx = linearSearch(a, target);
-    if (idx != -1)
+
+    if (idx != -1) {
         cout << "linearSearch(a, " << target << ") = " << idx << " (a[" << idx << "] = " << a[idx] << ")\n";
-    else
-        cout << "Khong tim thay " << target << "\n";
+    } else {
+        cout << "linearSearch(a, " << target << ") = " << idx << " (khong tim thay -> -1)\n";
+    }
 
     target = 5;
     idx = linearSearch(a, target);
-    cout << "linearSearch(a, " << target << ") = " << idx << " (khong tim thay -> -1)\n";
+    
+    if (idx != -1) {
+        cout << "linearSearch(a, " << target << ") = " << idx << " (a[" << idx << "] = " << a[idx] << ")\n";
+    } else {
+        cout << "linearSearch(a, " << target << ") = " << idx << " (khong tim thay -> -1)\n";
+    }
+
 
     // --- Demo 2: Tim tat ca vi tri ---
-    cout << "\nTim tat ca vi tri cua 7: ";
+    cout << "\n  Tim tat ca vi tri cua 7:\n";
+
     vector<int> allPos = linearSearchAll(a, 7);
-    if (allPos.empty()) cout << "khong co\n";
-    else {
-        for (int p : allPos) cout << p << " ";
+
+    cout << "linearSearchAll(a, 7) = ";
+
+    if (allPos.empty()) {
+        cout << "khong co\n";
+    } else {
+        for (int x : allPos) {
+            cout << x << " ";
+        } 
+
         cout << "\n";
     }
 
+
     // --- Demo 3: Template generic voi string ---
     vector<string> words = {"apple", "banana", "cherry", "banana"};
-    cout << "\nMang string: apple banana cherry banana\n";
+
+    cout << "\n  Mang String: ";
+
+    for (string str : words) {
+        cout << str << " ";
+    } 
+
+    cout << "\n";
+
     cout << "linearSearchGeneric(words, \"banana\") = " << linearSearchGeneric(words, string("banana")) << "\n";
     cout << "linearSearchGeneric(words, \"grape\")  = " << linearSearchGeneric(words, string("grape")) << " (khong thay)\n";
 
+
     // --- Demo 4: Mang tinh ---
     int b[] = {10, 20, 30, 40, 50};
+
     int n = sizeof(b) / sizeof(b[0]);
-    cout << "\nMang tinh [10,20,30,40,50]: linearSearchArray(b, 5, 30) = " << linearSearchArray(b, n, 30) << "\n";
+
+    cout << "\n  Mang tinh [10,20,30,40,50]\n"; 
+    cout << "linearSearchArray(b, 5, 30) = " << linearSearchArray(b, n, 30) << "\n";
 
     // --- Demo 5: Nhap tu ban phim (uncomment de test) ---
     /*
