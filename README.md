@@ -257,7 +257,7 @@ lower_bound(a.begin(), a.end(), x); // nhị phân
 upper_bound(a.begin(), a.end(), x); // nhị phân
 ```
 
-## 1. Checklist Tiến Độ
+## 10. Checklist Tiến Độ
 
 Đánh dấu khi hoàn thành từng thư mục:
 
