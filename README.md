@@ -164,7 +164,7 @@ Mỗi thư mục con sẽ chứa:
 
 Đi theo thứ tự dưới đây, mỗi thư mục tương ứng 1-2 tuần (2-3 giờ/ngày).
 
-```mermaid
+```txt
 data_structure/01_array + algorithm/01_complexity + 06_two_pointers
     ↓
 algorithm/02_sorting + 03_searching
