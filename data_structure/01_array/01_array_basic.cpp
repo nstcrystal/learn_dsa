@@ -26,7 +26,13 @@ int main() {
     cout << "=== 1. Khai bao ===\n";
     int arr[5] = {1, 2, 3, 4, 5};          // mảng tĩnh, size cố định
 
-    cout << "arr[2] = " << arr[2] << "\n";
+    cout << "Mang: ";
+    
+    for (int x : arr) {
+        cout << x << " ";
+    } 
+
+    cout << "\narr[2] = " << arr[2] << "\n";
 
 
     // --- 2. Duyệt mảng ---
@@ -44,7 +50,9 @@ int main() {
 
     for (int x : arr) {
         cout << x << " ";
-    } 
+    }
+    
+    cout << "\n";
 
 
     // --- 3. Mảng 2 chiều (matrix) ---
