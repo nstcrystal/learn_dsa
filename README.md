@@ -1,5 +1,5 @@
 <h1 style="text-align: center"> 
-Learn DSA with C++ Lộ Trình Học Data Structure & Algorithm 
+Learn DSA with C++
 </h1>
 
 > Repo tổng quan và lộ trình học DSA từ cơ bản đến nâng cao bằng **C++**.  
