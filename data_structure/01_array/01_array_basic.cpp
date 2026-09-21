@@ -10,7 +10,7 @@ using namespace std;
 //
 // Đặc điểm Array:
 //   - Lưu liên tiếp trong RAM, truy cập O(1) qua index
-//   - Mảng tĩnh: kích thước cố định, cấp phát compile-time
+//   - Mảng tĩnh: Kích thước cố định, cấp phát compile-time
 //
 // Độ phức tạp:
 //   - Truy cập a[i]:   O(1)
@@ -22,7 +22,7 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    // --- 1. Khai báo & khởi tạo ---
+    // --- 1. Khai báo và khởi tạo ---
     cout << "=== 1. Khai bao ===\n";
     int arr[5] = {1, 2, 3, 4, 5};          // mảng tĩnh, size cố định
 
