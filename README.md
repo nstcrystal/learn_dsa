@@ -1,8 +1,4 @@
-<center>
-
-# Learn DSA with C++
-
-</center>
+<h1 align="center">Learn DSA with C++</h1>
 
 > Repo tổng quan và lộ trình học DSA từ cơ bản đến nâng cao bằng **C++**.  
 

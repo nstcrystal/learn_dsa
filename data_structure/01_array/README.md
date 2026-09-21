@@ -1,5 +1,1 @@
-<center>
-
-# 01_array
-
-</center>
+<h1 align="center">01_array</h1>

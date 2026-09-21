@@ -1,8 +1,4 @@
-<center>
-
-# Data Structure - Cấu Trúc Dữ Liệu
-
-</center>
+<h1 align="center">Data Structure - Cấu Trúc Dữ Liệu</h1>
 
 > Thư mục chứa toàn bộ cài đặt và bài tập về **cách tổ chức & lưu trữ dữ liệu** bằng C++.
 

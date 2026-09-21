@@ -1,5 +1,1 @@
-<center>
-
-# 03_searching
-
-</center>
+<h1 align="center">03_searching</h1>
