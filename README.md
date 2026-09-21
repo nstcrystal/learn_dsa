@@ -1,7 +1,10 @@
-# Learn DSA with C++ — Lộ Trình Học Data Structure & Algorithm
+<h1 style="text-align: center"> 
+Learn DSA with C++ Lộ Trình Học Data Structure & Algorithm 
+</h1>
 
 > Repo tổng quan và lộ trình học DSA từ cơ bản đến nâng cao bằng **C++**.  
-> Toàn bộ code, lý thuyết và bài tập được chia thành 2 thư mục chính: `data_structure/` và `algorithm/` để dễ triển khai và ôn tập.
+
+> Toàn bộ code, lý thuyết và bài tập được chia thành 3 thư mục chính: `data_structure/`,  `algorithm/` và `exercise/` để dễ triển khai và ôn tập.
 
 **Mục Lục**
 
@@ -14,8 +17,7 @@
 - [7. Lộ Trình Học Gợi Ý](#7-lộ-trình-học-gợi-ý)
 - [8. Cách Sử Dụng Repo](#8-cách-sử-dụng-repo)
 - [9. Quy Ước Code C++](#9-quy-ước-code-c)
-- [10. Tài Nguyên Học Tập](#10-tài-nguyên-học-tập)
-- [11. Checklist Tiến Độ](#11-checklist-tiến-độ)
+- [11. Checklist Tiến Độ](#10-checklist-tiến-độ)
 
 ## 1. Giới Thiệu Dự Án
 
