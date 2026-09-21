@@ -1,4 +1,8 @@
+<center>
+
 # Algorithm - Thuật Toán
+
+</center>
 
 > Thư mục chứa toàn bộ kỹ thuật và bài tập về **cách giải quyết bài toán** bằng C++.
 

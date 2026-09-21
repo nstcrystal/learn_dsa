@@ -1,4 +1,8 @@
+<center>
+
 # Exercise - Các bài tập
+
+</center>
 
 > Thư mục chứa các câu hỏi, bài tập riêng biệt
 
@@ -17,4 +21,8 @@ Từng bài tập sẽ có phần mô tả chi tiết câu hỏi và code tươn
 
 Cho hai gương có độ dài l, đặt song song và cách nhau một đoạn d. Chiếu một tia sáng từ cạnh bên trái của gương, cách gương dưới một đoạn x và hợp với đường vuông góc của gương dưới một góc θ. Hãy đếm số lần mà tia sáng này phản xạ.
 
+<center>
+
 ![Ảnh minh họa](https://coder.husc.edu.vn/media/martor/1f628797-26ec-47cc-ac1f-d6acd5b823d3.png)
+
+</center>
