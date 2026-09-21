@@ -17,7 +17,7 @@ Learn DSA with C++ Lộ Trình Học Data Structure & Algorithm
 - [7. Lộ Trình Học Gợi Ý](#7-lộ-trình-học-gợi-ý)
 - [8. Cách Sử Dụng Repo](#8-cách-sử-dụng-repo)
 - [9. Quy Ước Code C++](#9-quy-ước-code-c)
-- [11. Checklist Tiến Độ](#10-checklist-tiến-độ)
+- [10. Checklist Tiến Độ](#10-checklist-tiến-độ)
 
 ## 1. Giới Thiệu Dự Án
 
