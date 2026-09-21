@@ -13,7 +13,7 @@
 
 Từng bài tập sẽ có phần mô tả chi tiết câu hỏi và code tương ứng
 
-### Định luật phản xạ ánh sáng
+### Định luật phản xạ ánh sáng [(code)](/exercise/dinh_luat_phan_xa_anh_sang.cpp)
 
 Cho hai gương có độ dài l, đặt song song và cách nhau một đoạn d. Chiếu một tia sáng từ cạnh bên trái của gương, cách gương dưới một đoạn x và hợp với đường vuông góc của gương dưới một góc θ. Hãy đếm số lần mà tia sáng này phản xạ.
 
