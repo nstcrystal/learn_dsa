@@ -5,7 +5,7 @@
 ## Danh sách bài tập
 
 | # | Bài tập | Yêu cầu |
-|---|---|---|
+| :--- | :--- | :--- |
 | 01 | [Định luật phản xạ ánh sáng](#định-luật-phản-xạ-ánh-sáng) | Đếm số lần tia sáng phản xa |
 | 02 | MAREC | Đếm số hình chữ nhật khác nhau |
 
