@@ -10,7 +10,7 @@ using namespace std;
 // Các điểm phạn xạ tiếp theo có khoảng cách giữa 2 điểm đều bằng nhau có độ
 //  dài là b = d * tan(θ) 
 //
-// 
+// Vậy nên ta chỉ cần lấy độ dài của gương trừ khoảng cách a rồi đem chia cho b 
 // ============================================================================
 
 const double PI = 3.14159265358979323846;
