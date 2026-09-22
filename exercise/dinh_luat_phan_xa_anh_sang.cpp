@@ -4,7 +4,14 @@
 
 using namespace std;
 
-
+// ============================================================================
+// Ta nhận thấy khi ánh sáng phản xạ thì khoảng cách từ điểm xuất phát đến điểm
+//  phản xạ đầu tiên có độ dài là a = x * tan(θ)
+// Các điểm phạn xạ tiếp theo có khoảng cách giữa 2 điểm đều bằng nhau có độ
+//  dài là b = d * tan(θ) 
+//
+// 
+// ============================================================================
 
 const double PI = 3.14159265358979323846;
 
