@@ -4,10 +4,13 @@
 using namespace std;
 
 // ============================================================================
-// Bài này ta chỉ cần đếm số lượng của các que diêm có chiều dìa khác nhau
-// Nếu Nếu có nhiều que diêm có độ dài x có số lượng >= 2 thì ta lấy 
+// Bài này ta chỉ cần đếm số lượng của các que diêm có chiều dài khác nhau
+// Đếm que diêm có độ dài x có số lượng >= 2 (dem2)
+// Đếm que diêm có độ dài x có số lượng >= 4 (dem4)
 //
-// Vậy nên ta chỉ cần lấy độ dài của gương trừ khoảng cách a rồi đem chia cho b 
+// 
+// Lấy tổ hợp của 2 chập dem2: toHop(dem2, 2)
+// Nếu dem4 != 0 thì toHop(dem2, 2) + dem4
 // ============================================================================
 
 long long toHop(int n, int k) {
