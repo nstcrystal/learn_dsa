@@ -7,7 +7,7 @@
 | # | Bài tập | Yêu cầu |
 | :--- | :--- | :--- |
 | 01 | [Định luật phản xạ ánh sáng](#định-luật-phản-xạ-ánh-sáng) | Đếm số lần tia sáng phản xa |
-| 02 | MAREC | Đếm số hình chữ nhật khác nhau |
+| 02 | [MAREC](#marec) | Đếm số hình chữ nhật khác nhau |
 
 
 ## Danh sách chi tiết từng bài tập
